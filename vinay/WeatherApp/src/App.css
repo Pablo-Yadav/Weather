@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .clouds-container {
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* z-index: -1; */
+     /* Make sure the background stays behind other elements */
+    background-image: url('https://www.worldatlas.com/r/w960-q80/upload/34/3f/ce/shutterstock-122755672.jpg'); /* Replace 'your-image.jpg' with your actual image name and path */
+    background-size: cover;
+    /* animation: slideBackground 10s linear infinite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container{
+    position: absolute;
+    z-index: 2;
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+
+  
+  @keyframes slideBackground {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Adjust this value based on how far you want the image to move */
+    }
+  }
