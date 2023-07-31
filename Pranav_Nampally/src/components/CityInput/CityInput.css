@@ -1,0 +1,107 @@
+.TypeAheadDropDown {
+    /* position: relative; */
+    /* z-index: 5; */
+    /* top:1vh; */
+    width: 40%;
+    border: 1px solid gray;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px 1px rgba(0, 0, 0, 0.18);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+  }
+  
+  .TypeAheadDropDown input {
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+    padding: 10px 5px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  .TypeAheadDropDown ul::before {
+    content: "";
+  }
+  
+  .TypeAheadDropDown ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid gray;
+  }
+  
+  .TypeAheadDropDown li {
+    padding: 10px 5px;
+    /* position: relative; */
+    /* right: 100px; */
+    cursor: pointer;
+  }
+  
+  .TypeAheadDropDown li:hover {
+    background: lightgray;
+    text-decoration: underline;
+  }
+  
+  .App {
+    margin: 150px auto 0 auto;
+    width: 600px;
+  }
+  
+  .btn{
+    height: 2.5vw;
+    border-radius: 0;
+    border:none;
+    background: black;
+    color: white;
+
+  }
+  .TypeAheadDropDownNew {
+    position: absolute;
+    z-index: 5;
+    left: 7.1vw;
+    /* top:1vh; */
+    width: 40%;
+    /* margin-right: 18%; */
+    border: 1px solid gray;
+    background: #eee;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px 1px rgba(0, 0, 0, 0.18);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+  }
+  
+  .TypeAheadDropDownNew input {
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.73);
+    padding: 10px 5px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  .TypeAheadDropDownNew ul::before {
+    content: "";
+  }
+  
+  .TypeAheadDropDownNew ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid gray;
+  }
+  
+  .TypeAheadDropDownNew li {
+    padding: 10px 5px;
+    /* position: relative; */
+    /* right: 100px; */
+    cursor: pointer;
+  }
+  
+  .TypeAheadDropDownNew li:hover {
+    background: lightgray;
+    text-decoration: underline;
+  }
